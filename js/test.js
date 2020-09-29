@@ -21,10 +21,11 @@ let userWeight = readlineSync.question("Can you give your weight ?");
 let userNumber = readlineSync.question("just gimme a decimal, yo!");
 console.log(Math.trunc(userWeight) * Math.trunc(userNumber));
 
+let userNumb1 = readlineSync.question("Gimme a first number yo!");
+let userNumb2 = readlineSync.question("gimme another juicy one, yo!");
+console.log(userNumb1 % userNumb2);
+
 let userShoeSize = readlineSync.question("Whats your shoe size ?");
 let userBirthyear = readlineSync.question("Birthyear?")
 console.log(((userShoeSize * 2 + 5) * 50) - userBirthyear + 1766);
 
-let userNumb1 = readlineSync.question("Gimme a first number yo!");
-let userNumb2 = readlineSync.question("gimme another juicy one, yo!");
-console.log(userNumb1 % userNumb2);
