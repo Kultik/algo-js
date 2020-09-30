@@ -17,3 +17,5 @@ function randy10() {
 }
 
 console.log(randy10());
+
+// does also include MAX

@@ -16,4 +16,4 @@ function multiRand(n) {
 
 let snickers = new Number(readlineSync.question("How many panels of cheese ?"));
 
-console.log(multiRand(snickers));
+console.log(multiRand(snickers)); // we just linked n to snickers, holy jeez

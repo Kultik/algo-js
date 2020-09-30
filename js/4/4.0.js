@@ -30,8 +30,8 @@ let myFunction = (a, b) => {
 function count(i) {
     if (i <= 100) {
         console.log(i);
-        count(i + 2);
+        count(i + 2); // stair size
     }
 }
 
-count(2);
+count(2); // starting line
